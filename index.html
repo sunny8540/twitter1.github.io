@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up with Twitter / Twitter</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: gray;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .main{
+            width: 35rem;
+            height: 36rem;
+            border-radius:.4rem;
+            margin: 2rem 25rem;
+            background-color: #fff;
+        }
+        .count{
+            padding: 1rem;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+        .main1{
+            margin: 1rem 4rem;
+        }
+        .header{
+            font-size: 2.1rem;
+            font-weight: 600;
+            padding-bottom: 1rem;
+        }
+        input{
+            font-size: 1.4rem;
+            padding-left: 1rem;
+            margin: 1rem 0rem;
+            height: 4rem;
+            width: 25rem;
+            color: silver;
+            border: .1rem silver solid;
+            border-radius:.3rem ;
+        }
+        ul li{
+            float: right;
+            list-style: none;
+            margin-right:2rem ;
+        }
+        ul li a{
+            color: royalblue;
+            text-decoration: none;
+
+        }
+        .header1{
+            font-size: 1rem;
+            font-weight: 600;
+            padding-top:3rem ;
+            padding-bottom: .3rem;
+        }
+        .contait{
+            font-size: .8rem;
+            color: gray;
+        }
+        .time{
+            display: flex;
+            justify-content: row;
+        }
+        .ya{
+            width: 10rem;
+            height:4rem
+        }
+        .ya:hover{
+            color: royalblue;
+            border-color:royalblue ;
+
+            cursor: pointer;
+            background-color: aliceblue;
+        }
+        .ya1{
+
+            width: 7.4rem;
+            height: 4rem;
+        }
+        .ya1:hover{
+            color: royalblue;
+            cursor: pointer;
+            border-color:royalblue ;
+            background-color: aliceblue;
+        }
+        .month{
+            border: .1rem solid silver;
+            margin-right: .2rem;
+            border-radius:.2rem ;
+            color: silver;
+            font-size: 1.2rem;
+        }
+        .days{
+            border: .1rem solid silver;
+            margin-right: .2rem;
+            border-radius:.2rem ;
+            color: silver;
+            font-size: 1.2rem;
+        }
+        .year{
+            border: .1rem solid silver;
+            margin-right: .2rem;
+            border-radius:.2rem ;
+            color: silver;
+            font-size: 1.2rem;
+        }
+        .next{
+            /* width: 7rem; */
+            border: .1rem solid royalblue;
+            /* height: 3rem; */
+            line-height: 3rem;
+            border-radius: 40rem;
+            /* color: aliceblue; */
+            width: 25rem;
+            cursor: pointer;
+            margin-top: 1rem;
+            text-align: center;
+            font-size: 1.4rem;
+            /* background-color: #f790; */
+        }
+        .next:hover{
+          
+            background-color: aliceblue;    
+        }
+        a{
+            text-decoration:none;
+            color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p class="count">Step 1 of 5</p>
+        <div class="main1"> 
+            <p class="header">Create your account</p>
+            <input type="text" placeholder="Name"><br>
+            <input type="number" placeholder="phone">   
+            <ul>
+                <li><a href="#">Use email instead</a></li>
+            </ul>
+            <p class="header1">Date of birth</p>
+            <p class="contait">This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or something else.</p>
+          <div class="time">
+            <div class="mon">
+            <select class="month ya">
+                <option  class="months1">months</option>
+                <option value="">January</option>
+                <option value="">February</option>
+                <option value="">March</option>
+                <option value="">April</option>
+                <option value="">May</option>
+                <option value="">June</option>
+                <option value="">July</option>
+                <option value="">August</option>
+                <option value="">September</option>
+                <option value="">October</option>
+                <option value="">November</option>
+                <option value="">December</option>
+            </select>
+           </div>
+           <div class="day">
+            <select name="adfad" class="days ya1" >
+                <option value="">Days</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select>
+           </div>
+           <div class="yea ">
+            <select name="year" class="year ya1">
+                <option value="">Year</option>
+                <option value="">1980</option>
+                <option value="">1981</option>
+                <option value="">1982</option>
+                <option value="">1983</option>
+                <option value="">1984</option>
+                <option value="">1985</option>
+                <option value="">1986</option>
+                <option value="">1987</option>
+                <option value="">1988</option>
+                <option value="">1989</option>
+                <option value="">1990</option>
+                <option value="">1991</option>
+                <option value="">1992</option>
+                <option value="">1993</option>
+                <option value="">1994</option>
+                <option value="">1995</option>
+                <option value="">1996</option>
+                <option value="">1997</option>
+                <option value="">1998</option>
+                <option value="">1999</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+                <option value="">2006</option>
+                <option value="">2007</option>
+                <option value="">2008</option>
+                <option value="">2009</option>
+                <option value="">2010</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022   </option>
+            </select>
+           </div>
+        </div>
+<a href="https://sunny8540.github.io/twitter2.github.io/">           <div class="next"><span class="nex">Next</span></div>
+</a>
+    </div>
+    </div>
+    
+</body>
+</html>
